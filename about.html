@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>University School of Automation and Robotics</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://i.postimg.cc/ydnFZ2tV/logo2.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!-- -------- ABOUT US CONTENT -------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>GGSIPU - EDC</h1>
+                <p>The need of the time is to keep pace with technological advancements, teaching methodology and research, in the light of fast changing scenario and business environment globally. As India marches into the Fourth Industrial Revolution (IR4.0), the university is all set to respond as fast as possible by establishing the University School of Automation & Robotics covering the emerging areas like machine learning, data science, artificial intelligence, industrial IOT, etc. USAR has set vision to produce world-class engineers who will cater to the growing technological needs of the nation. <br><br>
+                The purpose of the school is to initiate continuous interaction with the industry, sharing the industry experiences, understanding industry needs and providing the required support to the corporate world, as well as opportunities to students to work in alliance with Industry. Facilities for students include well equipped library with books from diversified areas, periodicals and National & International Journals. The academic programmes are designed to enable growth and learning in a highly focused and application-based environment. This is achieved through a combination of formal lectures and hands-on experience in well equipped laboratories and through learning based projects. Creating environment of collaboration, experimentation, imagination and creativity is the goal of the school.</p>
+                <a href="" class="site-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="https://i.postimg.cc/wTk98HKg/students1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- -------- FOOTER -------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>GGS Indraprastha University-East Campus aims at equipping the students with world class learning experience leading to their holistic development . <br>It is an exemplary campus where aesthetics and technology go hand in hand.</p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by SDC-USAR</p>
+    </section>
+
+<!-- --------JavaScript for Toggle Bar--------  -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

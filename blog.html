@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>University School of Automation and Robotics</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://i.postimg.cc/ydnFZ2tV/logo2.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog</h1>
+    </section>
+
+<!-- -------- blog page content -------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="https://i.postimg.cc/t4Cp9fyP/students2.jpg" alt="">
+                <h2>Ethnic Day</h2>
+                <p>A vibrant and colourful cultural event reflecting the diaspora and diversity of Indian culture and values. A day of celebration with a mixture of the rich traditions and the vibrancy of India’s diversified culture and people. It is an expression and representation of talent and creativity of students, the Ethnic Day is celebrated in USAR which commences with an Opening ceremony of dance/music performance followed by a multiple events.<br>
+                This celebration is usually very exuberant, ethnic and memorable for all the students. The staff and students of USAR enjoy a joyous and colourful day celebrating our motherland INDIA. <br> <br>
+                <br>Overall, the event was carried out for a duration of 2 hours 30 minutes and was successful, many satisfactory feedbacks were given about the event and appreciation was received from the dignitaries, faculties, beloved juniors and batchmates. <br>
+                During the entire event all the COVID 19 Protocols like using of mask, sanitizer, social distancing, and alternative seating was followed considering the safety of students. <br>
+                Director, Dean, Registrar, Student Affairs Coordinator were thanked by the cultural club members for extending their support. They thanked the entire student community and the technical support team for their support throughout the event.</p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Comment"></textarea>
+                        <button type="submit" class="site-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>07</span>
+                </div>
+                <div>
+                    <span>Internet of Things</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Automation & Robotics</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Cultural Fests</span>
+                    <span>08</span>
+                </div>
+                <div>
+                    <span>Club Events</span>
+                    <span>13</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- -------- FOOTER -------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>GGS Indraprastha University-East Campus aims at equipping the students with world class learning experience leading to their holistic development . <br>It is an exemplary campus where aesthetics and technology go hand in hand.</p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by SDC-USAR</p>
+    </section>
+
+<!-- --------JavaScript for Toggle Bar--------  -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
